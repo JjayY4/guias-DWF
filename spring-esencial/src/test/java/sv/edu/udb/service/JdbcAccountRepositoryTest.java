@@ -1,3 +1,4 @@
+//Nombre: Josué Adrián García GJ242648
 package sv.edu.udb.service;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -26,7 +27,7 @@ public class JdbcAccountRepositoryTest {
 //test para findAccountNumber para verificar num para ID
     //verifica un return que no se anulo ni vacio
     @Test
-    @DisplayName("Retorne un número de cuenta no nulo y no vacío para un ID de usuario")
+    @DisplayName("Retorne un número de cuenta no nulo y no vacío")
     void shouldReturnNonEmptyAccountNumberForGivenUserId() {
         //definimos un userId para poder reflejar el contrato de la interfaz
         Integer userId = 123;
